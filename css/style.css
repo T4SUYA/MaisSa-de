@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: #e6e6e6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -17,11 +17,6 @@ main {
     border-radius: 5px;
 }
 
-ul {
-    padding: 0;
-    list-style: none;
-}
-
 i {
     padding: 5px;
 }
@@ -34,6 +29,10 @@ a {
 h1 {
     font-size: 1.8em;
     color: black;
+}
+
+.clear-all {
+    clear: both;
 }
 
 .azul {
@@ -62,6 +61,8 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .nav li {
@@ -72,9 +73,9 @@ h1 {
 .nav li input {
     border: none;
     padding: 10px;
+    border-radius: 4px;
 }
 
-.nav li:hover,
 .nav li a:hover {
     color: rgba(85, 172, 238, 1);
 }
@@ -103,12 +104,15 @@ h1 {
 
 .nav li button:hover {
     cursor: pointer;
+    background-color: black;
+    transition: all 1s ease;
 }
 
 #principal {
-    padding: 15px;
-    width: 920px;
-    margin: 0px auto;
+    padding: 20px;
+    width: 65%;
+    margin-left: 70px;
+    float: left;
 }
 
 #area-postagens {
@@ -135,6 +139,7 @@ h1 {
     border-radius: 4px;
     padding: 5px;
     width: 98%;
+    height: auto;
 }
 
 #principal a {
@@ -180,4 +185,46 @@ ul li ul:focus {
 ul li ul li {
     clear: both;
     width: 100%;
+}
+
+.conteudo-lateral {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 2px dotted #ccc;
+    background: white;
+}
+
+.postagem-lateral a {
+    color: rgba(85, 172, 238, 1);
+}
+
+.postagem-lateral a:hover {
+    margin-bottom: 12px;
+    text-decoration: underline;
+    transition: all 0.7 ease;
+}
+
+#lateral {
+    width: 25%;
+    float: right;
+}
+
+#rodape {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background: #e6e6e6;
+    flex-direction: column;
+}
+
+#rodape p {
+    font-weight: bold;
 }
