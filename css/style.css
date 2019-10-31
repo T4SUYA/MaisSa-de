@@ -85,6 +85,11 @@ h1 {
     font-size: 1.3em;
 }
 
+.center-logo:hover {
+    top: 5px;
+    transition: all 1s ease;
+}
+
 .nav li:not(:last-child):not(.center-logo) {
     margin-right: 10px;
 }
@@ -227,4 +232,88 @@ ul li ul li {
 
 #rodape p {
     font-weight: bold;
+}
+
+#card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 65%;
+    grid-gap: 10px;
+    margin: auto auto;
+}
+
+.card::before {
+    left: -100;
+}
+
+.card {
+    left: 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    background: rgba(85, 172, 238, 1);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 10px;
+    transition: all 1s ease;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+    margin-bottom: 10px;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#contato>form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#contato>form>label {
+    font-size: 18px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#contato>form>input {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 45px;
+    padding: 0px 15px;
+    font-size: 16px;
+    align-items: center;
+}
+
+#contato form button {
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgba(85, 172, 238, 1);
+    color: #fff;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background: rgba(60, 150, 200, 1);
 }
