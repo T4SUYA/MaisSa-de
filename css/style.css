@@ -1,0 +1,183 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(85, 172, 238, 1);
+}
+
+main {
+    min-height: 400px;
+    width: 100%;
+    min-width: 600px;
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+i {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: black;
+}
+
+.azul {
+    color: rgba(85, 172, 238, 1);
+}
+
+.center-logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-radius: 5px;
+    color: rgba(117, 117, 117, 1);
+    box-shadow: 5px 10px 20px -20px rgba(85, 172, 238, 1);
+}
+
+.nav ul {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+.nav li {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav li input {
+    border: none;
+    padding: 10px;
+}
+
+.nav li:hover,
+.nav li a:hover {
+    color: rgba(85, 172, 238, 1);
+}
+
+.center-logo {
+    color: rgba(85, 172, 238, 1);
+    font-size: 1.3em;
+}
+
+.nav li:not(:last-child):not(.center-logo) {
+    margin-right: 10px;
+}
+
+.nav li i:not(.fa-search) {
+    margin-right: 3px;
+}
+
+.nav li button {
+    font-size: 0.8em;
+    border: 0;
+    background: rgba(85, 172, 238, 1);
+    color: #fff;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.nav li button:hover {
+    cursor: pointer;
+}
+
+#principal {
+    padding: 15px;
+    width: 920px;
+    margin: 0px auto;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagem {
+    clear: both;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    display: block;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 20px;
+}
+
+.postagem img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 98%;
+}
+
+#principal a {
+    color: rgba(85, 172, 238, 1);
+}
+
+#principal a:hover {
+    text-decoration: underline;
+}
+
+li {
+    display: block;
+    float: left;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 2s;
+}
+
+li:focus-within a {
+    outline: none;
+}
+
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    padding: 8px;
+    position: absolute;
+    transition: all 1s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
