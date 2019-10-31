@@ -7,7 +7,7 @@ body {
 }
 
 img:hover {
-    box-shadow: 0 0 2px 1px rgba(85, 172, 238, 1);
+    box-shadow: 0 0 2px 1px rgba(0, 230, 0, 1);
 }
 
 main {
@@ -36,7 +36,7 @@ h1 {
 }
 
 .azul {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 230, 0, 1);
 }
 
 .center-logo {
@@ -52,7 +52,7 @@ h1 {
     border: 1px solid rgba(238, 238, 238, 1);
     border-radius: 5px;
     color: rgba(117, 117, 117, 1);
-    box-shadow: 5px 10px 20px -20px rgba(85, 172, 238, 1);
+    box-shadow: 5px 10px 20px -20px rgba(0, 230, 0, 1);
 }
 
 .nav ul {
@@ -77,11 +77,11 @@ h1 {
 }
 
 .nav li a:hover {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 230, 0, 1);
 }
 
 .center-logo {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 230, 0, 1);
     font-size: 1.3em;
 }
 
@@ -101,7 +101,7 @@ h1 {
 .nav li button {
     font-size: 0.8em;
     border: 0;
-    background: rgba(85, 172, 238, 1);
+    background: rgba(0, 230, 0, 1);
     color: #fff;
     border-radius: 100px;
     padding: 12px;
@@ -148,7 +148,7 @@ h1 {
 }
 
 #principal a {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 230, 0, 1);
 }
 
 #principal a:hover {
@@ -206,7 +206,7 @@ ul li ul li {
 }
 
 .postagem-lateral a {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 230, 0, 1);
 }
 
 .postagem-lateral a:hover {
@@ -251,7 +251,7 @@ ul li ul li {
     margin-top: 50px;
     margin-bottom: 30px;
     display: flex;
-    background: rgba(85, 172, 238, 1);
+    background: rgba(0, 230, 0, 1);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -309,11 +309,11 @@ ul li ul li {
     padding: 0 20px;
     font-size: 16px;
     font-weight: bold;
-    background: rgba(85, 172, 238, 1);
+    background: rgba(0, 230, 0, 1);
     color: #fff;
     cursor: pointer;
 }
 
 #contato button:hover {
-    background: rgba(60, 150, 200, 1);
+    background: rgb(40, 187, 101);
 }
