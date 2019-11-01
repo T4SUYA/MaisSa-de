@@ -7,7 +7,7 @@ body {
 }
 
 img:hover {
-    box-shadow: 0 0 2px 1px rgba(85, 172, 238, 1);
+    box-shadow: 0 0 2px 1px rgba(0, 190, 0, 1);
 }
 
 main {
@@ -36,7 +36,7 @@ h1 {
 }
 
 .azul {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 190, 0, 1);
 }
 
 .center-logo {
@@ -52,7 +52,8 @@ h1 {
     border: 1px solid rgba(238, 238, 238, 1);
     border-radius: 5px;
     color: rgba(117, 117, 117, 1);
-    box-shadow: 5px 10px 20px -20px rgba(85, 172, 238, 1);
+    box-shadow: 5px 10px 20px -20px rgba(0, 190, 0, 1);
+    background-color: #ddd;
 }
 
 .nav ul {
@@ -77,11 +78,11 @@ h1 {
 }
 
 .nav li a:hover {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 190, 0, 1);
 }
 
 .center-logo {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 190, 0, 1);
     font-size: 1.3em;
 }
 
@@ -101,7 +102,7 @@ h1 {
 .nav li button {
     font-size: 0.8em;
     border: 0;
-    background: rgba(85, 172, 238, 1);
+    background: rgba(0, 190, 0, 1);
     color: #fff;
     border-radius: 100px;
     padding: 12px;
@@ -120,16 +121,12 @@ h1 {
     float: left;
 }
 
-#area-postagens {
-    width: 660px;
-    float: left;
-}
-
 .postagem {
     clear: both;
     padding: 20px;
     margin-bottom: 20px;
     background: white;
+    box-shadow: 5px 10px 18px #727272;
 }
 
 .data-postagem {
@@ -148,7 +145,7 @@ h1 {
 }
 
 #principal a {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 190, 0, 1);
 }
 
 #principal a:hover {
@@ -206,7 +203,7 @@ ul li ul li {
 }
 
 .postagem-lateral a {
-    color: rgba(85, 172, 238, 1);
+    color: rgba(0, 190, 0, 1);
 }
 
 .postagem-lateral a:hover {
@@ -236,30 +233,30 @@ ul li ul li {
 
 #card-container {
     display: grid;
-    grid-template-columns: auto auto;
-    width: 65%;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
     grid-gap: 10px;
     margin: auto auto;
 }
 
-.card::before {
-    left: -100;
-}
-
 .card {
-    left: 0;
     margin-top: 50px;
     margin-bottom: 30px;
     display: flex;
-    background: rgba(85, 172, 238, 1);
+    background: rgba(0, 190, 0, 1);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 350px;
     border-radius: 10px;
     padding: 20px;
-    line-height: 10px;
+    line-height: 15px;
     transition: all 1s ease;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    box-shadow: 5px 10px 18px #727272;
 }
 
 .card img {
@@ -309,11 +306,11 @@ ul li ul li {
     padding: 0 20px;
     font-size: 16px;
     font-weight: bold;
-    background: rgba(85, 172, 238, 1);
+    background: rgba(0, 190, 0, 1);
     color: #fff;
     cursor: pointer;
 }
 
 #contato button:hover {
-    background: rgba(60, 150, 200, 1);
+    background: rgb(40, 187, 101);
 }
