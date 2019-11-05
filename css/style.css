@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #e6e6e6;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
 img:hover {
@@ -29,6 +29,10 @@ a {
 h1 {
     font-size: 1.8em;
     color: black;
+}
+#manteiga .postagem {
+    margin: 0 auto;
+    width: 70%;
 }
 
 .clear-all {
@@ -69,6 +73,11 @@ h1 {
 .nav li {
     cursor: pointer;
     font-size: 18px;
+    display: block;
+    float: left; 
+    position: relative;
+    text-decoration: none;
+    transition-duration: 2s;
 }
 
 .nav li input {
@@ -84,6 +93,7 @@ h1 {
 .center-logo {
     color: rgba(0, 190, 0, 1);
     font-size: 1.3em;
+    
 }
 
 .center-logo:hover {
@@ -110,7 +120,7 @@ h1 {
 
 .nav li button:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: darkgreen;
     transition: all 1s ease;
 }
 
@@ -127,6 +137,15 @@ h1 {
     margin-bottom: 20px;
     background: white;
     box-shadow: 5px 10px 18px #727272;
+    white-space: pre-line;
+    
+}
+.postagem p {
+    color: #898989;
+    font-weight: normal;
+}
+.postagem h1 {
+    text-align: center;
 }
 
 .data-postagem {
@@ -152,13 +171,13 @@ h1 {
     text-decoration: underline;
 }
 
-li {
+/* li {
     display: block;
-    float: left;
+    float: left; 
     position: relative;
     text-decoration: none;
     transition-duration: 2s;
-}
+} */
 
 li:focus-within a {
     outline: none;
@@ -313,4 +332,8 @@ ul li ul li {
 
 #contato button:hover {
     background: rgb(40, 187, 101);
+}
+
+.postagem ul {
+    white-space: normal;
 }
