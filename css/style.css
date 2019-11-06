@@ -200,6 +200,9 @@ ul li ul li {
     clear: both;
     width: 100%;
 }
+.texto{
+    text-align: center;
+}
 
 .conteudo-lateral {
     padding: 10px;
