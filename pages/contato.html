@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../css/card.scss">
     <title>Contato - Mais Saúde</title>
     <script src="https://kit.fontawesome.com/0c08a12778.js" crossorigin="anonymous"></script>
+    <script src="/scripts/jquery-3.4.1.min.js"></script>
+    <script src="/scripts/jquery-serializeObject.js"></script>
 </head>
 
 <body>
@@ -65,11 +67,11 @@
         <div id="contato">
             <h1>Ou nós podemos entrar em contato com você!</h1>
             <h2>Basta preencher o formulario abaixo que entraremos em contato na velocidade da luz</h2>
-            <form action="" method="get">
+            <form method="post">
                 <label for="name">Nome: </label>
-                <input type="text" placeholder="Seu nome aqui">
+                <input type="text" name="name" placeholder="Seu nome aqui">
                 <label for="email">E-mail: </label>
-                <input type="email" id="email" placeholder="Seu e-mail por favor">
+                <input type="email" name="email" id="email" placeholder="Seu e-mail por favor">
                 <button type="submit">Enviar</button>
             </form>
         </div>
@@ -82,6 +84,8 @@
         </div>
         <!--Fim Rodapé-->
     </main>
+
+    <script src="/scripts/formulario.js"></script>
 </body>
 
 </html>

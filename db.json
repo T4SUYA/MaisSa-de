@@ -1,0 +1,183 @@
+{
+  "tabelas": [
+    {
+      "id": 2,
+      "colunas": {
+        "componente": "Componentes em cada 100 gramas",
+        "branca": "Goiaba branca",
+        "vermelha": "Goiaba vermelha"
+      },
+      "linhas": [
+        {
+          "componente": "Energia",
+          "branca": "52 calorias",
+          "vermelha": "54 calorias"
+        },
+        {
+          "componente": "Proteínas",
+          "branca": "0,9 g",
+          "vermelha": "1,1 g"
+        },
+        {
+          "componente": "Gorduras",
+          "branca": "0,5 g",
+          "vermelha": "0,4 g"
+        },
+        {
+          "componente": "Carboidratos",
+          "branca": "12,4 g",
+          "vermelha": "13 g"
+        },
+        {
+          "componente": "Vitamina A (retinol)",
+          "branca": "-",
+          "vermelha": "38 mcg"
+        },
+        {
+          "componente": "Vitamina B1",
+          "branca": "vestígios",
+          "vermelha": "0,05 mg"
+        },
+        {
+          "componente": "Vitamina B2",
+          "branca": "vestígios",
+          "vermelha": "0,05 mg"
+        },
+        {
+          "componente": "Vitamina B3",
+          "branca": "vestígios",
+          "vermelha": "1,20 mg"
+        },
+        {
+          "componente": "Vitamina C",
+          "branca": "99,2 mg",
+          "vermelha": "80,6 mg"
+        },
+        {
+          "componente": "Cálcio",
+          "branca": "5 mg",
+          "vermelha": "4 mg"
+        },
+        {
+          "componente": "Fósforo",
+          "branca": "16 mg",
+          "vermelha": "15 mg"
+        },
+        {
+          "componente": "Ferro",
+          "branca": "0,2 mg",
+          "vermelha": "0,2 mg"
+        },
+        {
+          "componente": "Magnésio",
+          "branca": "7 mg",
+          "vermelha": "7 mg"
+        },
+        {
+          "componente": "Potássio",
+          "branca": "220 mg",
+          "vermelha": "198 mg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "colunas": {
+        "componente": "Componentes",
+        "quantidade": "Quantidade por 100 g de acerola"
+      },
+      "linhas": [
+        {
+          "componente": "Energia",
+          "quantidade": "33 calorias"
+        },
+        {
+          "componente": "Proteínas",
+          "quantidade": "0,9 g"
+        },
+        {
+          "componente": "Gorduras",
+          "quantidade": "0,2 g"
+        },
+        {
+          "componente": "Carboidratos",
+          "quantidade": "8,0 g"
+        },
+        {
+          "componente": "Vitamina C",
+          "quantidade": "941,4 mg"
+        },
+        {
+          "componente": "Cálcio",
+          "quantidade": "13,0 mg"
+        },
+        {
+          "componente": "Ferro",
+          "quantidade": "0,2 mg"
+        },
+        {
+          "componente": "Magnésio",
+          "quantidade": "13 mg"
+        },
+        {
+          "componente": "Potássio",
+          "quantidade": "165 mg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "colunas": {
+        "componente": "Componentes",
+        "quantidade": "Quantidade por 100 g de limão"
+      },
+      "linhas": [
+        {
+          "componente": "Energia",
+          "quantidade": "14 calorias"
+        },
+        {
+          "componente": "Água",
+          "quantidade": "90,1 g"
+        },
+        {
+          "componente": "Proteína",
+          "quantidade": "0,3 g"
+        },
+        {
+          "componente": "Gordura",
+          "quantidade": "0,1 g"
+        },
+        {
+          "componente": "Carboidrato",
+          "quantidade": "5,2 g"
+        },
+        {
+          "componente": "Fibras",
+          "quantidade": "2,1 g"
+        },
+        {
+          "componente": "Vitamina C",
+          "quantidade": "34,5 mg"
+        },
+        {
+          "componente": "Cálcio",
+          "quantidade": "10 mg"
+        },
+        {
+          "componente": "Magnésio",
+          "quantidade": "9 mg"
+        },
+        {
+          "componente": "Fósforo",
+          "quantidade": "11 mg"
+        },
+        {
+          "componente": "Potássio",
+          "quantidade": "120 mg"
+        }
+      ]
+    }
+  ],
+  "contatos": []
+}
