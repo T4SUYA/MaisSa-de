@@ -31,7 +31,7 @@ h1 {
     font-size: 1.8em;
     color: black;
 }
-#manteiga .postagem {
+#postagem .postagem {
     margin: 0 auto;
     width: 70%;
 }
@@ -141,7 +141,7 @@ h1 {
     white-space: pre-line;
     
 }
-.postagem p {
+.postagem span {
     color: #898989;
     font-weight: normal;
 }
@@ -337,4 +337,25 @@ ul li ul li {
 
 .postagem ul {
     white-space: normal;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table .thead-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+.table td, .table th {
+    padding: 10px 5px;
+}
+
+.table > tbody > tr:nth-child(even) > td {
+    background-color: lightgray;
 }
