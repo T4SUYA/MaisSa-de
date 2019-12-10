@@ -179,5 +179,11 @@
       ]
     }
   ],
-  "contatos": []
+  "contatos": [
+    {
+      "name": "teste",
+      "email": "hellysonrp@gmail.com",
+      "id": 1
+    }
+  ]
 }

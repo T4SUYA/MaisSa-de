@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Mais saúde no seu dia</title>
     <script src="https://kit.fontawesome.com/0c08a12778.js" crossorigin="anonymous"></script>
+    <script src="/scripts/jquery-3.4.1.min.js"></script>
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
     <main>
         <nav role="navigation">
             <!-- Inicio NAV  -->
@@ -46,7 +47,7 @@
 
         <!-- Inicio sessão de postagens -->
         <div id="principal">
-            <div class="postagem">
+            <div class="postagem" data-anima="fade-in">
                 <h2>Manteiga é saudável?</h2>
                 <span class="data-postagem">postado 20 de março de 2022</span>
                 <img src="/img/1.jpeg">
@@ -57,7 +58,7 @@
                 <a href="/pages/manteiga.html">Continue lendo</a>
 
             </div>
-            <div class="postagem">
+            <div class="postagem" data-anima="ease-out">
                 <h2>Benefícios da goiaba</h2>
                 <span class="data-postagem">postado 10 de março de 2022</span>
                 <img src="/img/2.jpg">
@@ -76,6 +77,33 @@
                     A acerola é uma fruta que pode ser usada como planta medicinal devido à alta concentração de vitamina C. Os frutos da acerola, além de saborosos, são muito nutritivos, porque são muito ricos também em vitamina A, vitaminas do Complexo B, ferro e cálcio.....
                 </span>
                 <a href="/pages/acerola.html">Continue lendo</a>
+            </div>
+            <div class="postagem">
+                <h2>Benefícios da Laranja para a Saúde</h2>
+                <span class="data-postagem">postado 10 de março de 2022</span>
+                <img src="/img/4-1.jpg">
+                <span>
+                        Bastante popular no Brasil, a laranja é uma das maiores representantes das frutas cítricas. Seu sabor costuma ser doce ou levemente ácido (mais azedo), de acordo com o tipo da laranja. Além de ser rica em vitamina C, a fruta possui flavonoides e diversos nutrientes importantes para prevenir doenças e deixar o organismo mais resistente......
+                </span>
+                <a href="/pages/laranja.html">Continue lendo</a>
+            </div>
+            <div class="postagem">
+                <h2>Conheça todos os Benefícios do Limão</h2>
+                <span class="data-postagem">postado 10 de março de 2022</span>
+                <img src="/img/5-1.jpg">
+                <span>
+                        O limão é um fruto muito versátil, que pode ser usado tanto como tempero em diversos pratos de carne ou peixe, como na preparação de sobremesas ou sucos ricos em vitamina C. Cada 100 gramas e limão possui apenas 26 calorias, e os seus benefícios podem ser obtidos usando o seu suco ou raspas da casca, rica em óleos essenciais......
+                </span>
+                <a href="/pages/limao.html">Continue lendo</a>
+            </div>
+            <div class="postagem">
+                <h2>Benefícios da Carambola para Saúde</h2>
+                <span class="data-postagem">postado 10 de março de 2022</span>
+                <img src="/img/6-1.jpg">
+                <span>
+                        Também conhecida como "star fruit" ("fruta estrela", traduzido em português) devido ao seu formato, principalmente quando cortada, a carambola é um ingrediente perfeito para compor uma alimentação saudável......
+                </span>
+                <a href="/pages/carambola.html">Continue lendo</a>
             </div>
         </div>
         <!--Fim seção de postagem-->
@@ -110,6 +138,8 @@
         </div>
         <!--Fim Rodapé-->
     </main>
+
+    <script src="/scripts/animacoes.js"></script>
 </body>
 
 </html>
